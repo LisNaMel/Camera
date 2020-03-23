@@ -1,0 +1,20 @@
+{
+  "user_id": {
+    "1": {
+      "id": 123456,
+      "password": 123256,
+      "name": 'Ryujin Jakra ภูเขาไฟ',
+      "status": 2,
+      "camera_id": 102030,
+      "time": 10.00,
+      "last_action": null,
+      "history":  null,
+      "report": null,
+      "personal": {
+        "age": null,
+        "sex": "male"
+      }
+
+    }
+  }
+}

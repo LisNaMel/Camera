@@ -2,18 +2,7 @@ from random import randrange
 import pymysql
 import json
 
-data = {
-  "id": 123456,
-  "password": 123256,
-  "name": 'Ryujin Jakra ภูเขาไฟ',
-  "status": 2,
-  "camera_id": 102030,
-  "time": 10.00,
-  "cars": [
-    {"model": "BMW 230", "mpg": 27.5},
-    {"model": "Ford Edge", "mpg": 24.1}
-  ]
-}
+
 
 print(json.dumps(data))
 
