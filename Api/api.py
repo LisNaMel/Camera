@@ -162,7 +162,11 @@ def register_user(data):
                     "history": {"=>register at " + date}
         }
         insert_json([type_id], {str(data[0]): json_obj})
-        insert_sql("user_info", json_obj)
+        db = connect_db()
+        cursor = db.cursor()
+        cursor.execute(insert_sql("user_info", json_obj))
+        db.commit()
+        db.close()
 
 
 
